@@ -111,13 +111,6 @@ public class Main {
 		for (int i = 0; i < N; i++)
 			cs[i] = 1 - 1 / (1 + t[i]);
 
-		for (int i = 0; i < N; i++)
-			System.out.print(fdr[i] + ",");
-		System.out.println();
-
-		for (int i = 0; i < N; i++)
-			System.out.print(cs[i] + ",");
-		System.out.println();
 
 		// Utility Traces
 		double alpha = 0.95;
